@@ -9,7 +9,7 @@ void Automat(void)
     static unsigned char ucClockDivider = 0; 
     
     enum KeyboardState eCurrentKey = eKeyboardRead();
-
+//git test
     switch(eLedState)
     {
         case STOP:
